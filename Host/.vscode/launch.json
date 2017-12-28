@@ -8,9 +8,9 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/RedShark.Server/dist/index.js",
+            "program": "${workspaceFolder}/packages/node_modules/@jorge/serverapp/dist/index.js",
             "outFiles": [
-                "${workspaceFolder}/RedShark.Server/dist/**/*.js"
+                "${workspaceFolder}/packages/node_modules/@jorge/serverapp/dist/**/*.js"
             ]
         }
     ]
