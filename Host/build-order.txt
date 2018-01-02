@@ -1,4 +1,5 @@
 lib-di
+lib-di-express
 lib-webapphost
 app-mobile
 serverapp
