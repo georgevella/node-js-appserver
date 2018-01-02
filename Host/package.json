@@ -2,7 +2,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "tsc"
+    "build": "build.cmd"
   },
   "description": "RedShark.Server",
   "author": {

@@ -7,6 +7,16 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Build",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run-script",
+                "build"
+            ]            
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Launch Program",
             "program": "${workspaceFolder}/packages/node_modules/@jorge/serverapp/dist/index.js",
             "outFiles": [
