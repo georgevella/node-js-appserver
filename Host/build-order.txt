@@ -1,5 +1,6 @@
 lib-di
 lib-di-express
+lib-webapp-core
 lib-devicedetection
 lib-marketdetection
 lib-webapphost
