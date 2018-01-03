@@ -4,9 +4,8 @@
   "scripts": {
     "build": "build.cmd"
   },
-  "description": "RedShark.Server",
   "author": {
-    "name": "georg"
+    "name": "jorge"
   },
   "main": "dist/index.js",
   "dependencies": {
