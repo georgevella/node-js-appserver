@@ -1,6 +1,7 @@
 lib-di
 lib-di-express
 lib-devicedetection
+lib-marketdetection
 lib-webapphost
 app-mobile
 app-diagnostics
