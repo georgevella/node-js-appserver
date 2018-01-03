@@ -3,4 +3,5 @@ lib-di-express
 lib-devicedetection
 lib-webapphost
 app-mobile
+app-test
 serverapp
