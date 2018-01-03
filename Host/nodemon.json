@@ -1,0 +1,18 @@
+{
+  "verbose": true,
+  "watch": ["packages/node_modules"],
+  "ext": "ts",
+  "ignoreRoot": [
+    "**/.git",
+    "**/.nyc_output",
+    "**/.sass-cache",
+    "**/bower_components",
+    "**/coverage",    
+    "./node_modules/**/*",
+    "src/**/*.spec.ts"
+  ],
+  "ignore": ["src/**/*.spec.ts"],
+  "execMap": {
+    "ts": "./node_modules/.bin/ts-node --no-ignore"
+  }
+}

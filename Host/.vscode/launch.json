@@ -7,11 +7,27 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}/packages/node_modules/@jorge/serverapp/dist/index.js",
+            "name": "Launch server with Nodemon",
+            "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/nodemon.cmd",
+            "program": "${workspaceRoot}/packages/node_modules/@jorge/serverapp/index.ts",
+            "restart": true,            
+            "protocol": "inspector",
+            "internalConsoleOptions": "openOnSessionStart",
+            "console": "internalConsole",
             "outFiles": [
-                "${workspaceFolder}/packages/node_modules/@jorge/serverapp/dist/**/*.js"
-            ]
+                 "${workspaceRoot}/packages/node_modules/@jorge/**/dist/*.js"
+            ],
+            "sourceMaps": true,
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Attach to process",
+            "address": "localhost",
+            "port": 12345,
+            "protocol": "inspector",
+            "outFiles": []
         }
     ]
 }
