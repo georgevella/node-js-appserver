@@ -1,5 +1,6 @@
 lib-di
 lib-di-express
+lib-devicedetection
 lib-webapphost
 app-mobile
 serverapp
