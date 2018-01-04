@@ -6,7 +6,7 @@ REM cake build\main.cake -Verbosity=Diagnostic --nuget_source=https://sto-proget
     echo Building [%%G]
 
     pushd %~dp0\packages\node_modules\@jorge\%%G    
-    tsc
+    tsc --noEmit --pretty
 
     if %ERRORLEVEL% NEQ 0 (
         goto failure
