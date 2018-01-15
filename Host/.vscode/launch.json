@@ -7,7 +7,7 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch server with Nodemon",
+            "name": "Launch Server",
             "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/nodemon.cmd",
             "runtimeArgs": [
                 "--config",
@@ -15,6 +15,23 @@
             ],
             "args": [
                 "${workspaceRoot}/packages/node_modules/@jorge/serverapp/index.ts"
+            ],            
+            "restart": true,            
+            "protocol": "inspector",
+            "internalConsoleOptions": "openOnSessionStart",
+            "console": "internalConsole",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Dev Server",
+            "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/ts-node.cmd",
+            "runtimeArgs": [
+                "--no-ignore"
+            ],
+            "args": [
+                "${workspaceRoot}/packages/node_modules/@jorge/app-mobile/server/index.ts"
             ],            
             "restart": true,            
             "protocol": "inspector",
