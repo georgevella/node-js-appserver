@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\GIT\samples\nodejs\node-js-appserver\Host" t="IncludeFlat">
+    <e p="C:\Users\georg\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_Host.-1471743264.00" t="ExcludeRecursive" />
+    <e p="D:\Sources\samples\web\node-js-appserver\Host" t="IncludeFlat">
       <e p="Host.sln" t="IncludeFlat" />
     </e>
-    <e p="C:\Users\geve2\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_Host.2041939344.00" t="ExcludeRecursive" />
   </component>
 </project>
