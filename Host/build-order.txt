@@ -4,6 +4,4 @@ lib-webapp-core
 lib-devicedetection
 lib-marketdetection
 lib-webapphost
-app-mobile
 app-diagnostics
-serverapp
